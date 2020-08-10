@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>WLAB</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/CLAB_ICON.png"/>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/justified-nav.css" rel="stylesheet">
+        <link href="mpage/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="mpage/bootstrap/css/justified-nav.css" rel="stylesheet">
+    </head>
+    <body onload="onload_fun(event)" 
+          style="user-select: none;
+          margin-left: 30px;
+          margin-right: 30px;
+          "
+          >
+        <div class="container">
+            <div class="masthead">
+                <h3 class="font-italic text-muted text-reset text-truncate"><i>
+    WLAB<sup>&reg;</sup> <img src="images/CLAB_ICON.png" alt=" "> </i><i style="float:right;color:#000000;font-size: 12px;"> 
+Adrián Costa<br>
+CEL: +57 300 805 31 63<br>
+email: adrianjocos@hotmail.com<br><a href="https://www.instagram.com/adriancostaiv/" target="_blank">Instagram:adriancostaiv</a></i> 
+                </h3>
+                <nav class="bg-light mb-3 navbar navbar-expand-md navbar-light rounded" style="width:380px">
+                    <div id="navbarCollapse">
+                        <ul class="nav-justified navbar-nav text-md-center w-100">
+                            <li class="active nav-item">
+                                <a class="nav-link" href="" id="hpg">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" id="pts"><b>Publications</b><span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" id="dwlds">Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" id="btmpg">About <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <br>
+        <br>
+        <h1 style="text-align:left;" id='vhdl_tittle'>
+            VHDL<sub>&</sub>FPGA&nbsp; <img src="images/_anp/vhdlfpga.png" style="width: 128px;" alt=" ">
+        </h1>
+        
+        <div>
+        Contenido:
+        <br>
+        <fieldset>
+        <table style="float :left;">
+            <tr>
+                <th>
+                <input type="button" 
+                    value="DEFINICIÓN" 
+                    onclick="msgtry( 'def_id' )"
+                    style="float:left;width: 200px;font-size: 12px;"
+                    class="btn btn-primary"
+                    >
+                </th>
+            </tr>
+            <tr> <th>&nbsp;</th></tr>
+            <tr>
+                <th>
+                <input type="button" 
+                    value="Algo de historia" 
+                    onclick="msgtry( 'hstr_id' )"
+                    style="float:left;width: 200px;font-size: 12px;"
+                    class="btn btn-primary"
+                    >
+                </th>
+            </tr>
+            <tr> <th>&nbsp;</th></tr>
+            <tr>
+                <th>
+                <input type="button" 
+                    value="Que hace VHDL?" 
+                    onclick="msgtry( 'qhvhdl_id' )"
+                    style="float:left;width: 200px;font-size: 12px;"
+                    class="btn btn-primary"
+                    >
+                </th>
+            </tr>
+            <tr> <th>&nbsp;</th></tr>
+            <tr>
+                <th>
+                <input type="button" 
+                    value="Unidades fundamentales del VHDL"
+                    onclick="msgtry( 'unfun_id' )"
+                    style="float:left;width: 200px;font-size: 12px;"
+                    class="btn btn-primary"
+                    >
+                </th>
+            </tr>
+            <tr> <th>&nbsp;</th></tr>
+            <tr>
+                <th>
+                <input type="button" 
+                    value="LIBRERÍAS"
+                    onclick="msgtry( 'libr_id' )"
+                    style="float:left;width: 200px;font-size: 12px;"
+                    class="btn btn-primary"
+                    >
+                </th>
+            </tr>
+            <tr> <th>&nbsp;</th></tr>
+            
+            
+            
+            
+        </table>
+        </fieldset>
+        </div>
+        
+        <div>&nbsp;<br></div><div>&nbsp;<br></div><div>&nbsp;<br></div><div>&nbsp;<br></div>
+        
+        
+        
+        
+        
+        <br>
+        <br>
+        <h2 style="text-align:left;" id="def_id">
+            DEFINICIÓN
+        </h2>
+        <p class="lead" align="justify" style="color: #000000;">
+        <br>
+        VHDL es un lenguaje de descripción ampliamente utilizado en el campo 
+        de la ingeniería. Muchos autores tienen sus definiciones, algunas mas 
+        completas que otras.
+        <br>
+        <br>
+        <strong>Volnei A. Pedroni</strong> en su libro 
+        <strong>Circuit Design with VHDL</strong>, lo define como:
+        <br>
+        Lenguaje diseñado para describir circuitos y sistemas electrónicos 
+        digitales que pueden ser implementados.
+        <br>
+        <br>
+        <strong>David G. Maxinez</strong> en su libro 
+        <strong>El arte de programar sistemas digitales</strong>, lo define como:
+        <br>
+        Estándar para la descripción, modelado y síntesis de circuitos 
+        digitales y sistemas complejos.
+        <br>
+        <br>
+        <strong>Fernando Pardo Carpio</strong> en su libro 
+        <strong>Lenguaje para la descripción y modelado de circuitos</strong>, lo define como:
+        <br>
+        VHDL es un lenguaje de descripción y modelado diseñado para describir 
+        (en una forma que los humanos y las maquinas puedan leer y entender) 
+        la funcionalidad y la organización de sistemas hardware digitales, 
+        placas de circuitos y componentes.
+        <br>
+        <br>
+        Todas las definiciones orientan a no asociar a VHDL con la definición 
+        de programa informático, ya que este último se define como:
+        <br>
+        Secuencia ordenada de comandos que realizan tareas definidas por el 
+        diseñador en una computadora, ademas que, durante la ejecución del 
+        programa se ejecutan una tras otra las instrucciones siguiendo un 
+        esquema secuencial definido por la arquitectura de la CPU.
+        <br>
+        <br>
+        
+                <input type="button" 
+                       value="Volver al índice &uparrow;" 
+                       onclick="msgtry( 'vhdl_tittle' )"
+                       style="float: right;"
+                       class="btn btn-primary"
+                       >
+                
+        <br>
+        <br>
+        
+        </p>
+        <br>
+        <br>
+        
+        
+        
+        
+        
+        
+        
+        
+        <h3 style="text-align:left;" id="hstr_id">
+            Algo de historia.
+        </h3>
+        <p class="lead" align="justify">
+            En 1980 el departamento de defensa de los estados unidos lanza un
+            agresivo esfuerzo para incrementar la velocidad de avance de 
+            la tecnología de los circuitos integrados. Empresas como 
+            <strong>IBM</strong> y <strong>Texas Instruments</strong> ya venían 
+            desarrollando sus propios lenguajes <strong>IDL</strong>(de IBM ), 
+            <strong>TI-HDL</strong>(de Texas Instruments) y 
+            <strong>ZEUS</strong> (de General Electrics).
+            <br>
+            <strong>VHSIC</strong> son las siglas de 
+            "Very-High-Speed Integrated Circuits", son cirucitos integrados de 
+            muy alta velocidad, junto a <strong>HDL</strong>
+            (Hardware Description Language) generan el lenguaje VHDL. En 1987 
+            IEEE define el primer standard de VHDL, el <strong>1076</strong> y 
+            en 1993 el <strong>1164</strong> para definir cada detalle del 
+            lenguaje.
+            <br>
+            <br>
+        </p>
+        
+        <br>
+        <center>
+        <img src="images/_anp/vhdlname.png" style="width: 100%;" alt=" ">
+        <br>
+        <label>
+            Fuente: autor.
+        </label>
+        </center>
+    
+        
+        <br>
+        <br>
+        
+                <input type="button" 
+                       value="Volver al índice &uparrow;" 
+                       onclick="msgtry( 'vhdl_tittle' )"
+                       style="float: right;"
+                       class="btn btn-primary"
+                       >
+                
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 style="text-align:left;" id="qhvhdl_id">
+            Que hace VHDL?
+        </h3>
+        <p class="lead" align="justify">
+            VHDL describe el comportamiento del hardware, sus pormenores, de 
+            esta manera se puede saber como está constituido al momento de 
+            hacer una implementación.
+        </p>
+        <center>
+        <img src="images/_anp/vhdlvscrct.png" style="width: 100%;" alt=" ">
+        <br>
+        <label>
+            A la izquierda esquema del circuito, a la derecha, descripción VHDL.
+            <br>
+            Fuente: autor.
+        </label>
+        </center>
+        
+        
+        <br>
+        <br>
+        
+                <input type="button" 
+                       value="Volver al índice &uparrow;" 
+                       onclick="msgtry( 'vhdl_tittle' )"
+                       style="float: right;"
+                       class="btn btn-primary"
+                       >
+                
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 style="text-align:left;" id="unfun_id">
+            Unidades fundamentales del VHDL.
+        </h3>
+        <p class="lead" align="justify">
+            Como en cualquier lenguaje, VHDL tiene un orden, una estructura, 
+            además de su sintaxis. 
+            <br>
+            <br>
+            Muy similar a los lenguajes de programación, 
+            <strong>VHDL</strong> comienza con las definiciones de las librerías utilizadas en 
+            la descripción de algún prototipo que se desee describir.
+            <br>
+            <br>
+            Posteriormente se describen las entradas y salidas.
+            <br>
+            <br>
+            Finálmente se describe el comportamiento.
+            <br>
+            
+        </p>
+        
+        <center>
+            <strong style="font-size: 30px;">LIBRARY</strong>
+            <br>(Librerías necesarias para la descripción)
+            <br>
+            <strong style="font-size: 50px;">&downarrow;</strong>
+            <br>
+            <strong style="font-size: 30px;">ENTITY</strong>
+            <br>(Declaración de entradas y salidas)
+            <br>
+            <strong style="font-size: 50px;">&downarrow;</strong>
+            <br>
+            <strong style="font-size: 30px;">ARCHITECTURE</strong>
+            <br>(Descripción del comportamiento)
+            <br>
+        </center>
+        <br>
+        <p class="lead" align="justify">
+            La visión general de un dispositivo en base a VHDL sería:
+            <br>
+        </p>
+        
+        
+        <center>
+        <img src="images/_anp/vhdlbig.png" style="width: 100%;" alt=" ">
+        <br>
+        <label>
+            Visión general VHDL.
+            <br>
+            Fuente: autor.
+        </label>
+        </center>
+        <br>
+        <br>
+        <input type="button" 
+                       value="Volver al índice &uparrow;" 
+                       onclick="msgtry( 'vhdl_tittle' )"
+                       style="float: right;"
+                       class="btn btn-primary"
+                       >
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="lead" align="justify" id="libr_id">
+            <strong style="font-size: 30px">LIBRARY</strong>
+            <br>
+            Las librerías fundamentales del VHDL son las estipuladas por la 
+            IEEE, en ellas se encuentran las operaciones básicas como suma, 
+            resta, multiplicación, lógicas entre otras. También se definen los 
+            tipos de señales, para la programación regular serían las variables 
+            sin embargo en VHDL esta definición no es válida, ni se acerca a la 
+            realidad de una <strong>variable</strong>. Una señal puede ser un 
+            bus de datos, una entrada de un sistema, una salida y muchas cosas 
+            mas, pero jamas una variable de programación.
+            <br>
+            <br>
+            Lo primero es definir que librería se necesita:
+            <br>
+            <strong style="color: blue;">LIBRARY</strong> 
+            <a style="color: #f00000;">IEEE</a><strong>;</strong>
+            <br>
+            <br>
+            Luego decir que partes de ella se usarán, esto es, sus paquetes:
+            <br>
+            <strong style="color: blue;">USE </strong><a style="color: #f00000;"> IEEE.STD_LOGIC_1164.<strong style="color: blue;">ALL</strong></a><strong>;</strong>
+            <br>
+            El standard 1164 de la IEEE se necesita para poder utilizar tipos 
+            como <strong style="color: #f000b0;">STD_LOGIC, STD_ULOGIC</strong> 
+            entre otros.
+            <br>
+            <br>
+            <br>
+            <strong style="color: blue;">USE </strong><a style="color: #f00000;"> IEEE.STD_LOGIC_ARITH.<strong style="color: blue;">ALL</strong></a><strong>;</strong>
+            <br>
+            El paquete 
+            <a style="color: #f00000;">STD_LOGIC_ARITH</a> permite usar las 
+            operaciones aritmeticológicas 
+            (<a style="color: #0000f0;">+</a>, <a style="color: #0000f0;">-</a>, 
+            <a style="color: #0000f0;">*</a>, <a style="color: #0000f0;">></a>, 
+            <a style="color: #0000f0;"><</a>, <a style="color: #0000f0;"><=</a>, 
+            <a style="color: #0000f0;">>=</a>, <a style="color: #0000f0;">=</a>, 
+            <a style="color: #0000f0;">/=</a>), 
+            funciones de conversión 
+            (<a style="color: #f000b0;">conv_integer</a>, 
+            <a style="color: #f000b0;">conv_unsigned </a>,
+            <a style="color: #f000b0;">conv_std_logic_vector </a>), tipos como, 
+            (<a style="color: #f000b0;">signed</a>, 
+            <a style="color: #f000b0;">unsigned</a>).
+            <br>
+            <br>
+            <br>
+            Muchos paquetes contienen métodos que permiten otras operaciones, 
+            escritura de ficheros entre otras.
+            
+            
+            
+            
+            
+        </p>
+                <input type="button" 
+                       value="Volver al índice &uparrow;" 
+                       onclick="msgtry( 'vhdl_tittle' )"
+                       style="float: right;"
+                       class="btn btn-primary"
+                       >
+        
+        
+        
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <!-- Site footer -->
+            <footer class="footer">
+                <p>Año 2020</p>
+            </footer>
+        </div>
+        <script>
+    function onload_fun(){
+                try{
+                    //
+                    var urlscript2 = window.location.protocol + "//" + window.location.host + "";
+                    var urlscript = urlscript2;
+                    if( urlscript.endsWith("/") ){
+                        urlscript = urlscript.substring( 0, urlscript.length-1 );
+                    }else{
+                        urlscript = urlscript + "/";
+                    }
+                    document.getElementById("hpg").href = urlscript;
+                    document.getElementById("hpg").href = urlscript + "?init";
+                    document.getElementById("btmpg").href = urlscript + "?btmpg";
+                    document.getElementById("dwlds").href = urlscript + "?dwlds";
+                    document.getElementById("pts").href = urlscript + "?pts";
+                    finterv = 0;
+                    var elements = document.querySelectorAll( '*' );
+                    for( var i=0; i<elements.length; i++ ){
+                        var str = elements[i].src + '';
+                        if( str.includes('powered-by-') ){
+                            elements[i].hidden = 'true';
+                        }
+                    }
+                    //
+                    window.oncontextmenu = function( e ){ e.preventDefault(); };
+                    //
+                }catch( ex ){
+                    alert( "ERROR onload_fun\n" + ex );
+                }
+            }
+////////////////////////////////////////////////////////////////////////////////
+        function funct(){
+            try{
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }catch( ex ){
+                alert( "funct: \n" + ex );
+            }
+        }
+////////////////////////////////////////////////////////////////////////////////
+        function msgtry( msgv ){
+            document.getElementById( msgv ).scrollIntoView(); 
+        }
+////////////////////////////////////////////////////////////////////////////////
+
+            
+        </script>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="mpage/assets/js/jquery.min.js"></script>
+        <script src="mpage/assets/js/popper.js"></script>
+        <script src="mpage/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

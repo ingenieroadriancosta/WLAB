@@ -1,0 +1,51 @@
+<tr>
+<td>2020/3/22</td>
+<td>20:23:31</td>
+<td>Android 8.1</td>
+<td>Chrome</td>
+<td>Mozilla/5.0 (Linux; Android 8.1.0; Moto G (5S)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36</td>
+<td>Mobile</td>
+<td>true</td>
+<td>America/Bogota</td>
+<td>360 x 640</td>
+<td>true</td>
+</tr>
+
+<tr>
+<td>2020/3/22</td>
+<td>16:0:25</td>
+<td>Android 7.0</td>
+<td>Chrome</td>
+<td>Mozilla/5.0 (Linux; Android 7.0; Moto G (4) Build/NPJS25.93-14-8.1-9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</td>
+<td>Mobile</td>
+<td>true</td>
+<td>undefined</td>
+<td>360 x 640</td>
+<td>true</td>
+</tr>
+
+<tr>
+<td>2020/3/22</td>
+<td>15:59:14</td>
+<td>Windows 64-bit</td>
+<td>Firefox</td>
+<td>Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</td>
+<td>Desktop</td>
+<td>true</td>
+<td>America/Bogota</td>
+<td>1366 x 768</td>
+<td>true</td>
+</tr>
+
+<tr>
+<td>2020/3/22</td>
+<td>15:58:52</td>
+<td>Android 7.0</td>
+<td>Chrome</td>
+<td>Mozilla/5.0 (Linux; Android 7.0; Moto G (4) Build/NPJS25.93-14-8.1-9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</td>
+<td>Mobile</td>
+<td>true</td>
+<td>undefined</td>
+<td>360 x 640</td>
+<td>true</td>
+</tr>

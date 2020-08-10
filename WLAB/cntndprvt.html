@@ -1,0 +1,104 @@
+<html>
+<head>
+<title> M A I N __ S E T  </title>
+</head>
+<body onload="mainload()">
+
+<a id="getallinfo" target="_blank">GETALLINFO</a>
+<br><br>
+
+<a id="ips" target="_blank"> I P S</a>
+<br><br>
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<a id="slvrs" target="_blank"> S E T   L O S   V I R U S </a>
+<br><br>
+<a id="svhdl" target="_blank"> S E T   V H D L </a>
+<br><br>
+<a id="init" target="_blank"> S E T   M A I N </a>
+<br><br>
+<a id="pts" target="_blank"> S E T   P U B L I C A T I O N S </a>
+<br><br>
+<a id="abt" target="_blank"> S E T   A B O U T </a>
+<br><br>
+<a id="dnld" target="_blank"> S E T   D O W N L O A D </a>
+<br><br>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<a id="main" target="_blank">PÁGINA PRINCIPAL</a>
+<br><br>
+
+<script>
+    
+    function mainload(){
+        try{
+	var mainurl = "http://adriancosta.000webhostapp.com/";
+	//
+        var urlscript2 = window.location.protocol + '//' + window.location.host + '';
+        var urlscript = urlscript2;
+        mainurl = urlscript;
+        mainurl = mainurl + "/";
+	//
+	//
+	//
+	document.getElementById( "getallinfo" ).href = mainurl + "?" + "getallinfo"; 
+	document.getElementById( "ips" ).href = mainurl + "?" + document.getElementById( "ips" ).id;
+	document.getElementById( "ips" ).href = mainurl + "?" + document.getElementById( "ips" ).id;
+        document.getElementById( "init" ).href = mainurl + "?" + document.getElementById( "init" ).id;
+        document.getElementById( "pts" ).href = mainurl + "?" + document.getElementById( "pts" ).id;
+	//
+	document.getElementById( "slvrs" ).href = mainurl + "?_main_pblc_page=PublicaLOSVIRUS.html";
+        document.getElementById( "svhdl" ).href = mainurl + "?_main_pblc_page=vhdl.html";
+        //
+        document.getElementById( "init" ).href = mainurl + "?_main_pblc_page=mpage.html";
+        document.getElementById( "pts" ).href = mainurl + "?_main_pblc_page=Publica.html";
+        document.getElementById( "abt" ).href = mainurl + "?_main_pblc_page=mpageabout.html";
+        document.getElementById( "dnld" ).href = mainurl + "?_main_pblc_page=mpagedown.html";
+	//
+	//
+	//
+	//
+	document.getElementById( "main" ).href = mainurl; 
+        
+        
+        
+                //
+                ///
+                finterv = 0;
+                var elements = document.querySelectorAll( '*' );
+                for( var i=0; i<elements.length; i++ ){
+                    var str = elements[i].src + '';
+                    if( str.includes('powered-by-') ){
+                        elements[i].hidden = 'true';
+                    }
+                }
+                    //
+                    //
+                    
+                    
+                }catch( ex ){
+                    alert( "ERROR onload_fun\n" + ex );
+                }
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FileReader Example</title>
+    <meta charset="UTF-8">
+
+    <script src="myscr.js"></script> 
+
+</head>
+
+<body>
+    <h3>FileReader example</h3>
+    <input type="file" onchange = "changeHandler(event)">
+    <br><br>
+    <output id="log-div"></output>
+	<p> ---------------- File Content ---------------- </p>
+	<p id="tinfo"> </p>
+	
+	<script>
+		var tinfo = document.getElementById("tinfo");
+		function changeHandler(evt){
+			try{
+			    myscr_al();
+				tinfo.innerHTML = evt;
+				evt.stopPropagation();
+				evt.preventDefault();
+				var files = evt.target.files;
+				var file = files[0];
+				var fileReader = new FileReader();
+				fileReader.onload = function(progressEvent) {
+					tinfo.innerHTML = fileReader.result;
+				}
+				
+				file.lastModified = " ";
+				tinfo.innerHTML = 
+						"file.name: " + file.name + "<br>" + 
+						"file.lastModified: " + file.lastModified + "<br>" + 
+						"file.lastModifiedDate: " + file.lastModifiedDate + "<br>" + 
+						"file.size: " + file.size + "<br>" + 
+						"file.type: " + file.type + "<br>" + 
+						"file.webkitRelativePath: " + file.webkitRelativePath + "<br>" + 
+						"<br>"
+						;
+				
+				fileReader.readAsText(file, "UTF-8"); // fileReader.result -> String.
+			}catch( ex ){
+				tinfo.innerHTML = "Script Error:<br>" + ex;
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</script>
+</body>
+
+</html>
+
